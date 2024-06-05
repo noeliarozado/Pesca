@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8" />
+	<meta name="description" content="La pesca en Asturias" />
+	<meta name="author" content="Noelia Rozado">
+	<meta name="keywords" content="pesca, Asturias, fluvial, marítima" />
+	<meta name="language" content="es" />
+	<title>La pesca en Asturias</title>
+	<link rel="stylesheet" href="../css/css_sorteo.css" />
+	<link rel="icon" href="../imagenes_video/pescado.png" type="image/png">
+</head>
+<body>
+	<header>
+		<div id="título_principal">
+			<h1>LA PESCA EN ASTURIAS</h1>
+		</div>
+		<div id="foto_principal">
+			<img src="../imagenes_video/pesca-en-asturias.jpg" alt="Caña de pescar con cebo">
+		</div>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="../index.html"><b>Principal</b></a></li>
+			<li><a href="../portfolio/fluvial.html"><b>Pesca fluvial</b></a></li>
+			<li><a href="../portfolio/marítima.html"><b>Pesca marítima</b></a></li>
+			<li><a href="../portfolio/recetas.html"><b>Recetas</b></a></li>
+			<li><a href="../portfolio/sorteo.html"><b>Sorteo</b></a></li>
+		</ul>
+	</nav>
+	<section>
+		<h2>SORTEO</h2>
+		<p>Suba la foto de su mejor día de pesca y participe en el sorteo de una caña de pescar <b>Resifight-100 Compact 3.50</b>.</p>
+		<img id="sorteo" src="../imagenes_video/regalo_sorteo.jpg" alt="Caña de pescar" />
+		<br>
+		<form action="#" method="post">
+			<label>Nombre:</label>
+			<input class="aspecto_formulario" type="text" name="nombre_formulario" required="required" />
+			<br>
+			<label>Apellidos:</label>
+			<input class="aspecto_formulario" type="text" name="apellidos_formulario" required="required" />
+			<br>
+			<label>Sexo:</label>
+			<br>
+			<input name="sexo" type="radio">Hombre 
+            <input name="sexo" type="radio">Mujer
+            <br>
+			<label>Fecha de nacimiento:</label>
+			<input class="aspecto_formulario" type="date">
+			<br>
+			<label>Número de teléfono:</label>
+			<input class="aspecto_formulario" type="tel" name="teléfono_formulario" placeholder="123-456-789" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}">
+			<br>
+			<label>Correo electrónico:</label>
+			<input class="aspecto_formulario" type="email" name="email_formulario" />
+			<br>
+			<label>Página web personal:</label>
+			<input class="aspecto_formulario" type="url" name="url_formulario" placeholder="Escriba la URL de su página web personal" />
+			<br>
+			<label>¿Es usted socio de la Federación de Pesca y Casting del Principado de Asturias?</label>
+			<select class="aspecto_formulario">
+				<option value="1">Sí</option>
+				<option value="2">No</option>
+            </select>
+            <br>
+			<label>¿Qué tipo de pesca practica?</label>
+			<br>
+			<input name="pesca_fluvial" type="checkbox">
+			<label>Pesca fluvial</label>
+			<br>
+            <input name="pesca_marítima" type="checkbox">
+			<label>Pesca marítima</label>
+			<br>
+			<label>¿Cuántos peces suele pescar cada año?</label>
+			<input class="aspecto_formulario" type="number" name="número_peces" min="0" max="30" value="0" />
+			<br>
+			<label>¿Cuántos peces espera pescar este año? (Entre 0 y 30)</label>
+  			<input type="range" name="predicción_pesca" min="0" max="30" list="tickmarks">
+  			<datalist id="tickmarks">
+  				<option value="0">
+  				<option value="5">
+  				<option value="10">
+  				<option value="15">
+  				<option value="20">
+  				<option value="25">
+  				<option value="30">
+  			</datalist>
+  			<br>
+			<label>Suba la foto de su mejor día de pesca:</label>
+			<input type="file" name="foto_pesca">
+			<br>
+			<label>Comentarios:</label>	
+			<textarea class="aspecto_formulario" rows="4" cols="30"></textarea>
+			<br>	
+			<input id="botón" type="submit" value="Enviar" />
+		</form>
+	</section>
+	<aside>
+		<img src="../imagenes_video/salmón.jpg" alt="Dibujo de un salmón" />
+		<p id="descripción"><b>La pesca en Asturias</b> es una web para los amantes de la pesca, tanto fluvial como marítima.</p>
+		<p id="federación">Formamos parte de la <b>Federación de Pesca y Casting del Principado de Asturias</b></p>
+		<a href="http://www.faspyc.com/" target="_blank">
+			<img id="logo" src="../imagenes_video/FASPYC.jpg" alt="Logo de la Federación de Pesca y Casting del Principado de Asturias" />
+		</a>
+	</aside>
+	<footer>
+		<br>
+		<br>
+		<h3>Contacto</h3>
+		<p><a href="mailto:lapescaenasturias@gmail.com">lapescaenasturias@gmail.com</a></p>
+		<p>
+			<a href="http://jigsaw.w3.org/css-validator/check/referer">
+				<img style="border:0; width:88px; height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="¡CSS Válido!" />
+			</a>
+		</p>
+		<p id="copyright">&copy; Copyright 2022 Noelia Rozado<p>
+	</footer>	
+</body>
+</html>

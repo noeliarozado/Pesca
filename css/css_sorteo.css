@@ -1,0 +1,145 @@
+body {
+	background: #F0FFFF;
+}
+
+#título_principal {
+	background-color:#B0E0E6;
+}
+
+header h1 {
+	text-align:center;
+	font-size: 60px;
+	color: #000080;
+}
+
+header img {
+	width: 1330px;
+	height: 300px;
+}
+
+nav {
+	font-size: 29px;
+	list-style-type: none;
+	background-color:#B0E0E6;
+}
+
+nav li
+{
+    display: inline-block;
+    margin: 20px;
+}
+
+nav a {
+	text-decoration: none;
+	color: #000080;
+}
+
+nav a:hover
+{
+    color: #20B2AA;
+}
+
+section {
+	width: 1030px;
+	text-align:justify;
+	font-size: 20px;
+    font-family: sans-serif;
+    line-height: 1.6;
+}
+
+h2 {
+	font-size: 40px;
+	color: #000080;
+	text-align: center;
+}
+
+#sorteo {
+	width: 550px;
+	height: 250px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 5px solid #48D1CC;
+	border-radius: 20px;
+}
+
+form {
+  background-color: #48D1CC;
+  padding: 25px;
+  border-radius: 20px;
+  max-width: 50%;
+  margin: auto;
+  text-align: left;
+}
+
+.aspecto_formulario {
+	width: 100%;
+}
+
+#botón {
+  background-color: #008B8B;
+  color: white;
+  font-weight: bold;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+}
+
+#botón:hover {
+	background-color: #00CED1;
+}
+
+aside {
+    float: right;
+    width: 200px;
+    background-color: #87CEFA;
+    border-radius: 20px;
+    padding: 15px;
+    position: absolute;
+    right: 50px; 
+    top: 610px; 
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+#descripción {
+	text-align: justify;
+}
+
+#federación {
+	text-align: center;
+}
+
+aside img {
+	width: 150px;
+	height: 150px;
+	display: block;
+	margin-left: auto;
+  	margin-right: auto;
+}
+
+#logo {
+    border-radius: 50%;
+}
+
+footer {
+	color: #000080;
+	font-size: 17px;
+	text-decoration: none;
+}
+
+h3 {
+	color: #000080;
+	font-size: 25px;
+}
+
+footer img {
+	display: block;
+	margin-left: auto;
+  	margin-right: auto;
+}
+
+#copyright {
+	text-align: center;
+	color: black;
+}
